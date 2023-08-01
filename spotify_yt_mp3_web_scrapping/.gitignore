@@ -1,0 +1,8 @@
+/__pycache__
+/build
+/dist
+/SpotifyToYoutubeMP3.egg-info
+/.cache
+/songs.csv
+/key.py
+/download.py

@@ -1,0 +1,10 @@
+bs4
+fake-useragent
+parse
+pyppeteer>=0.0.14
+pyquery
+w3lib
+flask
+html5lib
+spotipy
+pytube
