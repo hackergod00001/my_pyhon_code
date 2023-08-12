@@ -74,5 +74,6 @@ Final Result:
 > [!NOTE]
 > This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Note
 > [!IMPORTANT]
 > Please make sure to update the paths and filenames according to your project structure. Also, feel free to add more sections or details as needed for your project.
