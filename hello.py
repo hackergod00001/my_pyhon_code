@@ -4,6 +4,7 @@ Created on Sat Jul 22 21:47:15 2023
 
 @author: upmanyu
 """
+import sys
 print("hello world!")  # this will print the code in one line only
 
 print("""
@@ -477,7 +478,7 @@ elif choice == '3':
 elif choice == '4':
     print(num1, "/", num2, "=", divide(num1, num2))
 elif choice == '5':
-    print(num1, "%", num2, "=", divide(num1, num2))
+    print(num1, "%", num2, "=", mod(num1, num2))
 else:
     print("Invalid input")
 
@@ -511,3 +512,16 @@ elif o == "**" or o == "^":
     print(x ** y)
 else:
     print("Unknown operator.")
+
+# %%
+# Python program to demonstrate
+# sys.argv
+add = 0.0
+# Getting the length of command
+# line arguments
+n = len(sys.argv)
+for i in range(1, n):
+    add += float(sys.argv[i])
+print("the sum is :", add)
+
+# %%
