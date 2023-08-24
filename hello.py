@@ -194,7 +194,7 @@ print("Students Name: %s" % Dict.items())
 # %%
 # =============================================================================
 # write a python program to read a number and convert it to its hexadecimal
-# and ocatadecimal equivalent from scratch
+# and octadecimal equivalent from scratch
 # =============================================================================
 
 
