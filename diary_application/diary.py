@@ -6,7 +6,11 @@ from view_entry import view_entry_content
 from search_entries import search_entries
 from delete_entry import delete_entry
 
-DIARY_FOLDER = "diary_entries"
+# Get the absolute path of the directory containing the script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Specify the absolute path to the diary_entries folder
+DIARY_FOLDER = os.path.join(script_dir, "diary_entries")
 
 
 def main():

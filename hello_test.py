@@ -89,7 +89,7 @@ for i in range(0, n+1):
     print(a*i)
 
 # %%
-# Write a program to calculate the factorial of a given
+# Write a program to calculate the factorial (i.e 6!, 5!,x!...) of a given
 # number using a while loop.
 n = int(input("Enter the no.:\n"))
 i = 1
