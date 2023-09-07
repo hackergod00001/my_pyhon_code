@@ -1,6 +1,7 @@
 #!/bin/python3
 
 import sys
+import pyfiglet
 import socket
 from datetime import datetime
 
@@ -12,6 +13,8 @@ else:
     print("Syntax: python3 scanner.py")
 
 # Add a pretty banner
+banner = pyfiglet.figlet_format("Port Scanner")
+print(banner)
 print("-" * 50)
 print("Scanning target "+target)
 print("Time started: "+str(datetime.now()))
