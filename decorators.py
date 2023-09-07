@@ -6,7 +6,6 @@
 def compute(x):
     return x+5
 
-
 answer = compute(12)
 print(answer)
 
@@ -15,7 +14,6 @@ print(answer)
 
 # %%
 # Example 2: Basic Decorator
-
 
 def compute(x):
     return x+5
