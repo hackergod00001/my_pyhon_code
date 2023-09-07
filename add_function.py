@@ -7,8 +7,6 @@ def sum(x, y):
 # def add(a, b, c):
 #     z = a+b+c
 #     return (z)
-
-
 print("ENTER FIRST NO.: ")
 a = int(input())
 print("ENTER SECOND NO.: ")
