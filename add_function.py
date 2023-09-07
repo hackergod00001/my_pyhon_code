@@ -3,7 +3,6 @@ def sum(x, y):
     # print("SUM= ", x+y)
     return (d)  # this is the definition of the function
 
-
 # def add(a, b, c):
 #     z = a+b+c
 #     return (z)
