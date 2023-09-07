@@ -1,12 +1,18 @@
+import pyfiglet
+
+
 def swap(a, b):
     a, b = b, a
-    print("After Swapping\n")
-    print("\na= ", a)
-    print("\nb= ", b)
+    print("\nAfter Swapping")
+    print("a = ", a)
+    print("b = ", b)
 
 
+# Add a pretty banner
+banner = pyfiglet.figlet_format("Swap_no._v2")
+print(banner)
 a = int(input("Enter 1st value: "))
 b = int(input("Enter 2nd value: "))
-print("\na= ", a)
-print("\nb= ", b)
+print("a = ", a)
+print("b = ", b)
 swap(a, b)
