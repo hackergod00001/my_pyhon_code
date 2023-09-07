@@ -18,7 +18,6 @@ info("car", "Mercedes", "BMW", "Audi", "Jaguar", "Ford")
 print("=====================================")
 info("cities", "Mumbai", "London", "Paris", "New York", "Barcelona", "Moscow")
 
-
 # #OUTPUT
 # Information about:  food
 # Italian
