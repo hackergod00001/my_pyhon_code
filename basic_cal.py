@@ -1,3 +1,6 @@
+import pyfiglet
+
+
 def add(x, y):
     d = x+y
     return d
@@ -18,6 +21,9 @@ def div(x, y):
     return d
 
 
+# Add a pretty banner
+banner = pyfiglet.figlet_format("Operations_Playground")
+print(banner)
 while (True):
     print("1.Addition")
     print("2.Subtraction")
