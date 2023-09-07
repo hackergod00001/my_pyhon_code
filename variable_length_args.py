@@ -1,3 +1,6 @@
+import pyfiglet
+
+
 def info(s, *names):  # variable length arguments
     print("Information about: ", s)
     for i in names:
@@ -6,6 +9,9 @@ def info(s, *names):  # variable length arguments
 # s is like a normal variable, *names is like a pointer in c/c++ as here memory is added dynamically
 
 
+# Add a pretty banner
+banner = pyfiglet.figlet_format("Variable_Length_Arguments")
+print(banner)
 info("food", "Italian", "mexican", "turkish")
 print("=====================================")
 info("car", "Mercedes", "BMW", "Audi", "Jaguar", "Ford")
