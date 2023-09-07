@@ -1,25 +1,20 @@
 import pyfiglet
 
-
 def add(x, y):
     d = x+y
     return d
-
 
 def sub(x, y):
     d = x-y
     return d
 
-
 def mul(x, y):
     d = x*y
     return d
 
-
 def div(x, y):
     d = x/y
     return d
-
 
 # Add a pretty banner
 banner = pyfiglet.figlet_format("Operations_Playground")
