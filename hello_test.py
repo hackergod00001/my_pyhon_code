@@ -195,6 +195,13 @@ year = int(input('enter the year'))
 print(calendar.month(year, month))
 
 # %%
+# Write a program to generate the calendar for the entire year, for any given year.
+# import calendar
+y = int(input('enter the year'))
+for month in range(1, 13):
+    print(calendar.month(y, month))
+
+# %%
 
 # Link for website
 input_data = "<ENTER YOUR URL>"

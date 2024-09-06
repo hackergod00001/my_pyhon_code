@@ -15,7 +15,7 @@ print("""
 # print('\033[H\033[J') #for clearing the screen   ... but not
 # %%
 print("Enter First Number")
-a = int(input())
+a = int(input())  # changing the data type at runtime is called typecasting
 
 print("Enter Second Number")
 b = int(input())
@@ -42,6 +42,7 @@ s = input()
 print("Enter your amount\n")
 b = float(input())
 print("your name is %s and the amount you have spent is %f" % (s, b))
+# %s is a format specifier to inform the compiler about the type of data that system, planes to use.
 # %%
 print("Enter your name\n")
 s = input()
@@ -140,6 +141,10 @@ list1.append('Apple')
 print(list1)
 list1.reverse()
 print(list1)
+list1.sort()
+print(list1)
+# %%
+list1 = [1000, 6, 77, 9999, 542, 2000, 234]
 list1.sort()
 print(list1)
 # %%
@@ -360,7 +365,7 @@ if __name__ == "__main__":
 # %%
 
 # =============================================================================
-# wrtie a program to calculate the area of a circle
+# write a program to calculate the area of a circle
 # =============================================================================
 r = float(input("Enter the radius of the circle: "))
 Area = 3.14 * r**2
@@ -406,8 +411,7 @@ else:
     print("In Side ELSE-block")
 print("END OF PROGRAM")
 # indentation will resolve the membership issue ...
-# it will tell the system the control of which line of code belongs
-# to which part
+# it will tell the system the control of which line of code belongs to which part
 
 # %%
 # =============================================================================
